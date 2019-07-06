@@ -3,11 +3,11 @@ img.logo{
 	width: 150px;
 	height: 150px;
 	display: block;
-  margin-left: auto;
-  margin-right: auto;
-  border: 1px solid black;
-  margin-top: 50px;
-  margin-bottom: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid black;
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
 
 #ground {
@@ -25,12 +25,14 @@ img.logo{
 
 html{
 	background-color: #E0FFFF;
-	/*overflow: hidden;  Make page unscrollable */
+	overflow: hidden; /* Make page unscrollable */
 }
 
+
+
 .button:hover{
-  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
-  transform: scale(1.05);
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+    transform: scale(1.05);
 }
 
 a{
