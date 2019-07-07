@@ -7,7 +7,7 @@ Those are simple html and css files, just upload them on your webserver and you 
 
 ## Showcase
 ### Mobile
-![](https://gfycat.com/informalsnarlingbarracuda)
+![Example on mobile](https://thumbs.gfycat.com/InformalSnarlingBarracuda-small.gif)
 
 ## License
 [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
