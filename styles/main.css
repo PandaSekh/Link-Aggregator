@@ -11,7 +11,7 @@ img.logo{
 }
 
 #footer {
-  background:url("../media/grass.png") repeat-x 0 0 transparent;    
+  background:url("https://www.artedellalettura.it/wp-content/uploads/grass.png") repeat-x 0 0 transparent;    
   position: fixed;
   bottom: 0;
   left: 0;
@@ -54,4 +54,8 @@ a{
   border-radius: 10px;
   border: 1px solid #4CAF50;
   font-family: 'Karla', sans-serif;
+}
+
+.links{
+  margin-bottom: 125px;
 }
