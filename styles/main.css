@@ -3,40 +3,38 @@ img.logo{
 	width: 150px;
 	height: 150px;
 	display: block;
-    margin-left: auto;
-    margin-right: auto;
-    border: 1px solid black;
-    margin-top: 50px;
-    margin-bottom: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  border: 1px solid black;
+  margin-top: 50px;
+  margin-bottom: 30px;
 }
 
 #ground {
-  background:url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/56901/grass_tile-tinypng.png") repeat-x 0 0 transparent;    
-  position: absolute;
+  background:url("../media/grass.png") repeat-x 0 0 transparent;    
+  position: fixed;
   bottom: 0;
   left: 0;
-  z-index:2;
+  z-index:-1;
   width: 100%;
-  height: 192px;
-  min-height:192px;
+  height: 185px;
+  min-height:185px;
   border:0 none transparent;
   outline:0 none transparent;
 }
 
 html{
 	background-color: #E0FFFF;
-	overflow: hidden; /* Make page unscrollable */
 }
 
-
-
 .button:hover{
-    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
-    transform: scale(1.05);
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+  transform: scale(1.02);
 }
 
 a{
 	text-decoration: none;
+  font-family: 'Karla', sans-serif;
 }
 
 .button{
@@ -55,4 +53,5 @@ a{
   cursor:pointer;
   border-radius: 10px;
   border: 1px solid #4CAF50;
+  font-family: 'Karla', sans-serif;
 }
