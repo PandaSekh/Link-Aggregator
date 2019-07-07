@@ -1,7 +1,7 @@
 img.logo{
 	border-radius: 50%;
-	width: 150px;
-	height: 150px;
+	width: 140px;
+	height: 140px;
 	display: block;
   margin-left: auto;
   margin-right: auto;
@@ -10,7 +10,7 @@ img.logo{
   margin-bottom: 30px;
 }
 
-#ground {
+#footer {
   background:url("../media/grass.png") repeat-x 0 0 transparent;    
   position: fixed;
   bottom: 0;
