@@ -12,4 +12,4 @@ Those are simple html and css files, just upload them on your webserver and you 
 ## License
 [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
 
-Code protected by the GNU License, see the file LICENSE for additional informations.
+Code protected by the GNU License, see the file `LICENSE` for additional informations.
