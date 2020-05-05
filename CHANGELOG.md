@@ -5,6 +5,7 @@
 
 ### Fixed
 - Bugs related to the padding of the logo
+- Made bg fixed to fix bug on iOS devices
 
 ### Removed
 - Footer
