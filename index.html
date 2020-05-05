@@ -2,33 +2,49 @@
 <html>
 <head>
 	<title>Link Aggregator</title>
-	<!-- CSS & Google Fonts -->
-	<link rel="stylesheet" type="text/css" href="styles/main.css"/>
+	<!-- CSS -->
+	<!-- Change the theme here -->
+	<link rel="stylesheet" type="text/css" href="themes/islands/main.css"/>
+
 	<link href="https://fonts.googleapis.com/css?family=Karla&display=swap" rel="stylesheet">
+
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=YOUR_ID_HERE"></script>
+	<script>
+	window.dataLayer = window.dataLayer || [];
+	function gtag(){dataLayer.push(arguments);}
+	gtag('js', new Date());
+
+	gtag('config', 'YOUR_ID_HERE');
+	</script>
+
  
 </head>
 <body>
-	<!-- Logo Image -->
-	<img src="media/icon.png" class="logo" alt="Icon">
+	<div class = "content">
+		<div class="links">
+			<!-- Logo Image -->
+			<div class="logo_container">
+				<img src="https://placekitten.com/300/300" class="logo" alt="Icon">
+			</div>
+			
 
-	<!-- Links -->
-	<div class="links">
-		<!-- First Section -->
-		<a href=#><button type="button" class="button">My first, important link</button></a>
-		
-	
-		<!-- Second Section -->
-		<br>
-		<a href=#><button type="button" class="button">Second</button></a>
+			<!-- Links -->
+			<div class="links">
+				<!-- First Section -->
+				<a href=#><button type="button" class="button">My first, important link</button></a>
+				
+			
+				<!-- Second Section -->
+				<br>
+				<a href=#><button type="button" class="button">Second</button></a>
 
-		<!-- Third Section -->
-		<br>
-   		<a href=#><button type="button" class="button">Third</button></a>
-        <a href=#><button type="button" class="button">Fourth</button></a>
-
+				<!-- Third Section -->
+				<br>
+				<a href=#><button type="button" class="button">Third</button></a>
+				<a href=#><button type="button" class="button">Fourth</button></a>
+			</div>
+		</div>
 	</div>
-
-	<!-- Footer Image -->
-	<div id="footer"></div>
 </body>
 </html>
